@@ -29,7 +29,7 @@ func NewProductionConfig() Config {
 // Build constructs a logger from the Config and Options.
 func (cfg Config) Build(opts ...Option) (*Logger, error) {
 	if cfg.Config.Level == (zap.AtomicLevel{}) {
-		cfg.Config.Level = zap.NewAtomicLevelAt(zap.InfoLevel)
+		cfg.Config.Level = zap.NewAtomicLevelAt(zap.DebugLevel)
 	}
 
 	sink, errSink, err := cfg.openSinks()
@@ -76,4 +76,12 @@ func (cfg Config) Build(opts ...Option) (*Logger, error) {
 	}
 
 	return log, nil
+}
+
+func (cfg Config) NewLogger(options ...Option) (*Logger, error) {
+	if len(cfg.Writes) == 0 {
+		return cfg.Config.Build(options...)
+	}
+
+	return cfg.Build(options...)
 }

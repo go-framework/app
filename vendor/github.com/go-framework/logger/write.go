@@ -16,7 +16,7 @@ type Write struct {
 	// Writer name.
 	Name string `json:"name" yaml:"name"`
 	// Writer config.
-	Writer io.Writer `json:"writer" yaml:"writer"`
+	Writer io.Writer `json:"-" yaml:"-"`
 	// Level is the minimum enabled logging level. Note that this is a dynamic
 	// level, so calling Config.Level.SetLevel will atomically change the log
 	// level of all loggers descended from this config.
@@ -108,15 +108,45 @@ func (w *Write) unmarshal(data map[string]interface{}) error {
 
 // Implement YAML Unmarshaler interface.
 func (w *Write) UnmarshalYAML(unmarshal func(interface{}) error) error {
-	// new temp as map[string]interface{}.
-	temp := make(map[string]interface{})
+	// // new temp as map[string]interface{}.
+	// temp := make(map[string]interface{})
+	//
+	// // unmarshal temp as yaml.
+	// if err := unmarshal(temp); err != nil {
+	// 	return err
+	// }
+	//
+	// return w.unmarshal(temp)
 
-	// unmarshal temp as yaml.
-	if err := unmarshal(temp); err != nil {
+	var _w = write{}
+	if err := unmarshal(&_w); err != nil {
 		return err
 	}
 
-	return w.unmarshal(temp)
+	var ok bool = false
+	// load Writer.
+	_w.Writer, ok = GetWriter(_w.Name)
+	if !ok {
+		return errors.New("unsupported write name: " + w.Name)
+	}
+
+	type T struct {
+		// Writer config.
+		Writer interface{} `json:"writer" yaml:"writer"`
+	}
+
+	// var _t = T{
+	// 	Writer: _w.Writer,
+	// }
+	if err := unmarshal(_w.Writer); err != nil {
+		return err
+	}
+
+	// err := mapstructure.Decode(writer, w.Writer)
+
+	*w = Write(_w)
+
+	return nil
 }
 
 // Implement JSON Unmarshaler interface.
