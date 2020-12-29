@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9f059a8-40de-450e-9145-53847d8b3abd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/configurer/codec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/configurer/configurer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/configurer/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/configurer/templates/environment/environment.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/configurer/templates/environment/flag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/configurer/templates/sql/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/configurer/templates/sql/flag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/event.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/inapp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/inapp/context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/inapp/default.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/inapp/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/inapp/event.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/inapp/event_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/inapp/example/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/event/inapp/options.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1m0AffdPTO5myrZ8xgxnDghq1IV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\projects\app\vendor\github.com\go-framework\event" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\projects\app\vendor\github.com\go-framework" />
+      <recent name="D:\work\projects\app\vendor\github.com\go-framework\configurer\templates" />
+      <recent name="D:\work\projects\app\vendor\github.com\go-framework\config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestConfig_UnmarshalYAML in github.com/go-framework/logger" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <working_directory value="$PROJECT_DIR$/vendor/github.com/go-framework/logger" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/go-framework/logger" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestConfig_UnmarshalYAML$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestConfig_UnmarshalYAML in github.com/go-framework/logger" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1609234318375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609234318375" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1609234318375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609234318375" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1609234318374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609234318374" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1609234318375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609234318375" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1609234176354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609234176354" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1609234176353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609234176353" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1609234176353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609234176353" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1609234176354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609234176354" />
+    <state x="568" y="136" key="RollbackChangesDialog" timestamp="1609233410410">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="568" y="136" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1609233410410" />
+    <state x="272" y="58" key="SettingsEditor" timestamp="1609140796932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609140796932" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+
+# lumberjack config template
+level: debug
+development: false
+encoding: console
+encoderConfig:
+  messageKey: message
+writes:
+  - name: lumberjack
+    writer:
+      filename: lumberjack.log
+      maxsize: 1024
+      maxage: 30
+      maxbackups: 3
+      localtime: true
+      compress: true
+    level: info
+    encoding: json
+    encoderConfig:
+      messageKey: msg
