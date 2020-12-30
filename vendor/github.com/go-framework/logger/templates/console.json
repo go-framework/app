@@ -1,0 +1,37 @@
+{
+  "level": "info",
+  "development": false,
+  "disableCaller": false,
+  "disableStacktrace": false,
+  "sampling": {
+    "initial": 100,
+    "thereafter": 100
+  },
+  "encoding": "console",
+  "encoderConfig": {
+    "messageKey": "M",
+    "levelKey": "L",
+    "timeKey": "T",
+    "nameKey": "N",
+    "callerKey": "C",
+    "functionKey": null,
+    "stacktraceKey": "S",
+    "lineEnding": null,
+    "levelEncoder": "capital",
+    "timeEncoder": "ISO8601",
+    "durationEncoder": "string",
+    "callerEncoder": null,
+    "nameEncoder": null,
+    "consoleSeparator": null
+  },
+  "outputPaths": null,
+  "errorOutputPaths": null,
+  "initialFields": null,
+  "writes": [
+    {
+      "name": "console",
+      "level": "debug",
+      "encoding": "console"
+    }
+  ]
+}

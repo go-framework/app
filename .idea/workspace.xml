@@ -18,11 +18,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9f059a8-40de-450e-9145-53847d8b3abd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/config_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/config_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/logger_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/logger_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/register.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/write.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/go-framework/logger/write.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

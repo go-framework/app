@@ -1,0 +1,31 @@
+# console config template
+level: info
+development: false
+disableCaller: false
+disableStacktrace: false
+sampling:
+  initial: 100
+  thereafter: 100
+encoding: console
+encoderConfig:
+  messageKey: M
+  levelKey: L
+  timeKey: T
+  nameKey: N
+  callerKey: C
+  functionKey:
+  stacktraceKey: S
+  lineEnding:
+  levelEncoder: capital
+  timeEncoder: ISO8601
+  durationEncoder: string
+  callerEncoder:
+  nameEncoder:
+  consoleSeparator:
+outputPaths:
+errorOutputPaths:
+initialFields:
+writes:
+  - name: console
+    level: debug
+    encoding: console
