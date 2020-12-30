@@ -1,0 +1,61 @@
+{
+  "level": "debug",
+  "development": false,
+  "disableCaller": false,
+  "disableStacktrace": false,
+  "sampling": {
+    "initial": 100,
+    "thereafter": 100
+  },
+  "encoding": "console",
+  "encoderConfig": {
+    "messageKey": "M",
+    "levelKey": "L",
+    "timeKey": "T",
+    "nameKey": "N",
+    "callerKey": "C",
+    "functionKey": null,
+    "stacktraceKey": "S",
+    "lineEnding": null,
+    "levelEncoder": "capital",
+    "timeEncoder": "ISO8601",
+    "durationEncoder": "string",
+    "callerEncoder": null,
+    "nameEncoder": null,
+    "consoleSeparator": null
+  },
+  "outputPaths": null,
+  "errorOutputPaths": null,
+  "initialFields": null,
+  "writes": [
+    {
+      "name": "file-rotatelogs",
+      "level": "info",
+      "encoding": "json",
+      "encoderConfig": {
+        "messageKey": "M",
+        "levelKey": "L",
+        "timeKey": "T",
+        "nameKey": "N",
+        "callerKey": "C",
+        "functionKey": null,
+        "stacktraceKey": "S",
+        "lineEnding": null,
+        "levelEncoder": "capital",
+        "timeEncoder": "ISO8601",
+        "durationEncoder": "string",
+        "callerEncoder": null,
+        "nameEncoder": null,
+        "consoleSeparator": null
+      },
+      "writer": {
+        "filename": "file-rotatelogs.log",
+        "pattern": "file-rotatelogs-%Y%m%d.log",
+        "rotationtime": 86400,
+        "maxage": 30,
+        "maxbackups": 3,
+        "localtime": true
+      }
+    }
+  ]
+}

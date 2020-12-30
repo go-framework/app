@@ -1,0 +1,53 @@
+# file-rotatelogs config template
+level: debug
+development: false
+disableCaller: false
+disableStacktrace: false
+sampling:
+  initial: 100
+  thereafter: 100
+encoding: console
+encoderConfig:
+  messageKey: M
+  levelKey: L
+  timeKey: T
+  nameKey: N
+  callerKey: C
+  functionKey:
+  stacktraceKey: S
+  lineEnding:
+  levelEncoder: capital
+  timeEncoder: ISO8601
+  durationEncoder: string
+  callerEncoder:
+  nameEncoder:
+  consoleSeparator:
+outputPaths:
+errorOutputPaths:
+initialFields:
+writes:
+  - name: file-rotatelogs
+    level: info
+    encoding: json
+    encoderConfig:
+      messageKey: M
+      levelKey: L
+      timeKey: T
+      nameKey: N
+      callerKey: C
+      functionKey:
+      stacktraceKey: S
+      lineEnding:
+      levelEncoder: capital
+      timeEncoder: ISO8601
+      durationEncoder: string
+      callerEncoder:
+      nameEncoder:
+      consoleSeparator:
+    writer:
+      filename: file-rotatelogs.log
+      pattern: file-rotatelogs-%Y%m%d.log
+      rotationtime: 86400
+      maxage: 30
+      maxbackups: 3
+      localtime: true
